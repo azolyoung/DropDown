@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.source_files = "DropDown/src", "DropDown/src/**/*.{h,m}", "DropDown/helpers", "DropDown/helpers/**/*.{h,m}"
   s.resources = "DropDown/resources/*.{png,xib}"
   s.requires_arc = true
-  s.dependency = 'FittableFontLabel'
+  s.dependency 'FittableFontLabel'
 
 end
